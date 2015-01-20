@@ -1,2 +1,2 @@
-# go-weather
-API to access Accuweather data written in Golang.
+# ncdc-weather-api
+API to access Accuweather data written in Python.
