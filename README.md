@@ -1,2 +1,2 @@
 # ncdc-weather-api
-API to access Accuweather data written in Python.
+API to access NCDC data written in Python.
