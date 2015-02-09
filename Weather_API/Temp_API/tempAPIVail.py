@@ -1,15 +1,15 @@
 import pycurl
-import Weather_API.Temp_API.inputReader
+from Weather_API.Temp_API import inputReader
 from io import BytesIO
 
-inputReader = Weather_API.Temp_API.inputReader
+reader = inputReader
 
 baseurl = "http://www.ncdc.noaa.gov/cdo-web/api/v2"
 
 tokenParam = "sDDqnqqBmkfUFSEzXoElcgzmYrtTyZGz"
 
 # Define URL That is Desired starting with url + endPoint[n]
-finalUrl = baseurl + inputReader.urlAdd
+finalUrl = baseurl + reader.main()
 print(finalUrl)
 
 # Make Request
